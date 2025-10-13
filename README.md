@@ -60,7 +60,7 @@ My work focused on reproducing and extending the original model through:
 Preprocessing included:
 - Conversion of Julian dates → Day of Year (DOY)
 - Flattening and padding time series for Transformer input
-- Cleaning and validation for uniform structure across samples
+- Cleaning and validation for uniform structure across samples.
 
 ---
 
