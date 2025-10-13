@@ -114,5 +114,5 @@ python finetuning_lora.py \
 --Performed fine-tuning and cross-dataset transfer learning
 --Integrated and evaluated LoRA for parameter-efficient fine-tuning
 --Compared results with baseline methods (TempCNN, LSTM, Transformer, etc.)
---Documented findings in a full research report (see /docs/REPPORT.pdf)
+--Documented findings in a full research report (see /docs/REPPORT.pdf).
 
