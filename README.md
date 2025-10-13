@@ -58,8 +58,8 @@ My work focused on reproducing and extending the original model through:
 - **California Labeled Dataset** – Land cover dataset used in the original SITS-BERT paper  
 
 Preprocessing included:
-- Conversion of Julian dates → Day of Year (DOY)
-- Flattening and padding time series for Transformer input
+- Conversion of Julian dates → Day of Year (DOY).
+- Flattening and padding time series for Transformer input.
 - Cleaning and validation for uniform structure across samples.
 
 ---
