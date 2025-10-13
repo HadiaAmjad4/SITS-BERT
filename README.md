@@ -117,9 +117,17 @@ python finetuning_lora.py \
 🔍 Key Contributions
 
 --Implemented SITS-BERT end-to-end using PyTorch
+
 --Conducted pre-training on unlabeled satellite data
+
 --Performed fine-tuning and cross-dataset transfer learning
+
 --Integrated and evaluated LoRA for parameter-efficient fine-tuning
+
 --Compared results with baseline methods (TempCNN, LSTM, Transformer, etc.)
+
 --Documented findings in a full research report (see /docs/REPPORT.pdf).
+
+---
+
 
