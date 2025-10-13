@@ -13,10 +13,10 @@ Through extensive experiments on datasets such as **TimeSen2Crop** and **Califor
 SITS-BERT applies the **BERT architecture** to satellite image time series, learning temporal–spectral representations from unlabeled data.  
 My work focused on reproducing and extending the original model through:
 
-- ✅ **Pre-training** SITS-BERT on unlabeled Sentinel-2 data  
-- ✅ **Fine-tuning** the model on labeled datasets (California and TimeSen2Crop)  
-- ✅ **Implementing LoRA** (Low-Rank Adaptation) for parameter-efficient fine-tuning  
-- ✅ **Benchmarking** against state-of-the-art methods for SITS classification  
+-  **Pre-training** SITS-BERT on unlabeled Sentinel-2 data  
+-  **Fine-tuning** the model on labeled datasets (California and TimeSen2Crop)  
+-  **Implementing LoRA** (Low-Rank Adaptation) for parameter-efficient fine-tuning  
+-  **Benchmarking** against state-of-the-art methods for SITS classification  
 
 ---
 
@@ -79,6 +79,7 @@ tensorboard==2.3.0
 🚀 Running the Code
 
 Pre-Training
+
 python pretraining.py \
   --dataset_path '../data/Pre-Training-Data.csv' \
   --pretrain_path '../checkpoints/pretrain/' \
@@ -89,7 +90,10 @@ python pretraining.py \
   --attn_heads 8 \
   --learning_rate 1e-4
 
+---
+
 Fine-Tuning
+
 python finetuning.py \
   --file_path '../data/California-Labeled/' \
   --pretrain_path '../checkpoints/pretrain/' \
@@ -98,7 +102,10 @@ python finetuning.py \
   --batch_size 128 \
   --learning_rate 2e-4
 
+---
+
 LoRA Fine-Tuning
+
 python finetuning_lora.py \
   --rank 16 \
   --alpha 24 \
