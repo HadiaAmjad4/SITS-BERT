@@ -126,7 +126,7 @@ python finetuning_lora.py \
 
 --Compared results with baseline methods (TempCNN, LSTM, Transformer, etc.)
 
---Documented findings in a full research report (see /docs/REPPORT.pdf).
+--Documented findings in a full research report (see /docs/REPPORT.pdf)
 
 ---
 
