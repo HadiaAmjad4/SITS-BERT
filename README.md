@@ -1,4 +1,4 @@
-# 🌍 Self-Supervised Learning for Satellite Image Time Series (SITS-BERT)
+# Self-Supervised Learning for Satellite Image Time Series (SITS-BERT)
 
 This project extends and reimplements **SITS-BERT**, a Transformer-based self-supervised learning framework for **Satellite Image Time Series (SITS)** classification.  
 The work involved **pre-training**, **fine-tuning**, and **Low-Rank Adaptation (LoRA)** integration for efficient Transformer adaptation.
@@ -8,7 +8,7 @@ Through extensive experiments on datasets such as **TimeSen2Crop** and **Califor
 
 ---
 
-## 🧠 Overview
+##  Overview
 
 SITS-BERT applies the **BERT architecture** to satellite image time series, learning temporal–spectral representations from unlabeled data.  
 My work focused on reproducing and extending the original model through:
@@ -20,7 +20,7 @@ My work focused on reproducing and extending the original model through:
 
 ---
 
-## 📊 Experimental Results
+##  Experimental Results
 
 | Dataset | Configuration | Overall Accuracy (OA) |
 |----------|----------------|------------------------|
@@ -35,7 +35,7 @@ My work focused on reproducing and extending the original model through:
 
 ---
 
-## 🧩 Methodology
+##  Methodology
 
 ### 1. **Self-Supervised Pre-Training**
 - Random contamination of input sequences (simulated noise)
@@ -52,7 +52,7 @@ My work focused on reproducing and extending the original model through:
 
 ---
 
-## 🛰️ Datasets
+##  Datasets
 
 - **[TimeSen2Crop](https://ieeexplore.ieee.org/document/9408357)** – Sentinel-2 time series for crop-type classification  
 - **California Labeled Dataset** – Land cover dataset used in the original SITS-BERT paper  
@@ -64,7 +64,7 @@ Preprocessing included:
 
 ---
 
-## ⚙️ Requirements
+##  Requirements
 
 ```bash
 python==3.6.10
@@ -76,7 +76,7 @@ tensorboard==2.3.0
 ```
 ---
 
-🚀 Running the Code
+ Running the Code
 
 Pre-Training
 
